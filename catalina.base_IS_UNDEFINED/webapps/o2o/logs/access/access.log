@@ -1,0 +1,16 @@
+2020-04-19 21:26:01.067 [main] DEBUG c.i.o.dao.ProductCategoryDao.batchInsertProductCategory -
+				==>  Preparing: INSERT INTO(product_category_name,priority,create_time,shop_id) VALUES ( ?, ?, ?, ? ) , ( ?, ?, ?, ? ) 
+2020-04-19 21:26:31.708 [main] DEBUG c.i.o.dao.ProductCategoryDao.batchInsertProductCategory -
+				==>  Preparing: INSERT INTO(product_category_name,priority,create_time,shop_id) VALUES ( ?, ?, ?, ? ) , ( ?, ?, ?, ? ) 
+2020-04-19 21:26:31.765 [main] DEBUG c.i.o.dao.ProductCategoryDao.batchInsertProductCategory -
+				==> Parameters: 商品类别2(String), 5(Integer), 2020-04-19 21:26:31.264(Timestamp), 15(Long), null, null, null, null
+2020-04-19 21:28:32.814 [main] DEBUG c.i.o.dao.ProductCategoryDao.batchInsertProductCategory -
+				==>  Preparing: INSERT INTO tb_product_category(product_category_name,priority,create_time,shop_id) VALUES ( ?, ?, ?, ? ) , ( ?, ?, ?, ? ) 
+2020-04-19 21:28:32.865 [main] DEBUG c.i.o.dao.ProductCategoryDao.batchInsertProductCategory -
+				==> Parameters: 商品类别2(String), 5(Integer), 2020-04-19 21:28:32.199(Timestamp), 15(Long), null, null, null, null
+2020-04-19 21:29:07.137 [main] DEBUG c.i.o.dao.ProductCategoryDao.batchInsertProductCategory -
+				==>  Preparing: INSERT INTO tb_product_category(product_category_name,priority,create_time,shop_id) VALUES ( ?, ?, ?, ? ) , ( ?, ?, ?, ? ) 
+2020-04-19 21:29:07.199 [main] DEBUG c.i.o.dao.ProductCategoryDao.batchInsertProductCategory -
+				==> Parameters: 商品类别1(String), 1(Integer), 2020-04-19 21:29:06.739(Timestamp), 15(Long), 商品类别2(String), 5(Integer), 2020-04-19 21:29:06.739(Timestamp), 15(Long)
+2020-04-19 21:29:07.206 [main] DEBUG c.i.o.dao.ProductCategoryDao.batchInsertProductCategory -
+				<==    Updates: 2
